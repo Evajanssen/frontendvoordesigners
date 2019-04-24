@@ -1,17 +1,43 @@
-<html>
-  <head></head>
-  <body>
-    <h1>Opdracht 1 - versie 1</h1>
-    <p>
-      Hier komt de HTML van de interactieve demo te staan voor de eerste opdracht:
-      Ontwerp een user interface voor een gegeven use case.
-      Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
-    </p>
-    <ol>
-      <li>Als ik een lijst films heb gevonden, wil ik leuke films kunnen opslaan om ze thuis te ...</li>
-      <li>In een lijst gevonden studentenhuizen wil ik details kunnen bekijken om te bepalen of de kamer geschikt is.</li>
-      <li>In een verzameling muzieknummers wil ik de volgorde kunnen veranderen om een vette playlist te maken.</li>
-      <li>Als ik foto's zoek wil ik kunnen selecteren op kleur om verassende zoekresultaten te krijgen.</li>
-    </ol>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 1</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Opdracht 1</h1>
+
+    <p>Selecteer jouw lievelingsnummers en creeër een geweldige playlist! </p>
+
+    <div class="container">
+
+        <div id="items-container" class="base-container">
+            <div class="header">Songs</div>
+
+            <div class="todo-item" data-idx="0">
+                <figure>
+                    <figcaption>Artist - Song title</figcaption>
+                    <audio controls src="music/bensound-cute.mp3">
+
+                    </audio>
+                </figure>
+            </div>
+        </div>
+
+        <div id="todos-container" class="base-container">
+            <div class="header">Playlist</div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
